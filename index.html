@@ -8,12 +8,14 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </header>
 <body>
 <section class="header">
 	<nav>
 		<a href="index.html"> <img src="images/logo.png"></a>
-		<div class="nav-links">
+		<div class="nav-links" id="navLinks">
+			<i class="fas fa-times" onclick="hideMenu()"></i>
 			<ul>
 				<li><a href="home.html">HOME</a></li>
 				<li><a href="about.html">ABOUT</a></li>
@@ -22,6 +24,8 @@
 			</ul>
 
 		</div>
+		
+		<i class="fas fa-bars" onclick="showMenu()"></i>
 	</nav>
 <div class="text-box">
 	<h1>We’re here for you</h1>
@@ -32,10 +36,15 @@
 </section>
 
 
-	
-	
+<!-----JavaScript for Toggle Menu----->
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>	
 </body>
-
-
-
 </html>
