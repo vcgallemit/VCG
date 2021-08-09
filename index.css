@@ -92,7 +92,7 @@ nav .fas {
   }
   .nav-links {
     position: absolute;
-    background: grey;
+    background: rgba(119, 118, 118, 0.5);
     height: 100vh;
     width: 200px;
     top: 0;
