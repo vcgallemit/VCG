@@ -176,6 +176,7 @@ h3 {
 }
 .office-col img {
   width: 100%;
+  display: block;
 }
 .layer {
   background: transparent;
