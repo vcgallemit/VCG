@@ -279,6 +279,7 @@ h3 {
   font-weight: 600;
 }
 .icons .fab {
+  font-size: 30px;
   color: black;
   margin: 0 13px;
   cursor: pointer;
