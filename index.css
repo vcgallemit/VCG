@@ -232,16 +232,19 @@ h3 {
 .executive {
   flex-basis: 80%;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 50px;
   text-align: center;
 }
 .executive-col {
   flex-basis: 44%;
   border-radius: 10px;
-  margin-bottom: 55;
+  margin-bottom: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
   text-align: left;
-  background: lightgrey;
-  padding: 25px;
+  background: rgb(211, 211, 211);
+  padding: 35px;
   cursor: pointer;
   display: flex;
 }
@@ -265,8 +268,9 @@ h3 {
 
 .footer {
   width: 100%;
+  background-color: lightgrey;
   text-align: center;
-  padding: 30px 0;
+  padding: 30px 10px;
 }
 .footer h4 {
   margin-bottom: 25px;
