@@ -206,3 +206,23 @@ h3 {
   bottom: 49%;
   opacity: 1;
 }
+@media (max-width: 700px) {
+  .layer {
+    background: rgba(65, 64, 64, 0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+  .layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+}
